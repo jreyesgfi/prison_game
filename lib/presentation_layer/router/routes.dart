@@ -20,16 +20,11 @@ final List<NavigationDestinationItem> navigationItems = [
   NavigationDestinationItem(
     iconPath: "assets/icons/profile.svg",
     selectedIconPath: "assets/icons/profile.svg",
-    label: "Settings",
+    label: "Test",
   ),
   NavigationDestinationItem(
-    iconPath: "assets/icons/chrono.svg",
-    selectedIconPath: "assets/icons/chrono.svg",
-    label: "Training",
-  ),
-  NavigationDestinationItem(
-    iconPath: "assets/icons/chart.svg",
-    selectedIconPath: "assets/icons/chart.svg",
-    label: "Statistics",
+    iconPath: "assets/icons/profile.svg",
+    selectedIconPath: "assets/icons/profile.svg",
+    label: "Test2",
   ),
 ];

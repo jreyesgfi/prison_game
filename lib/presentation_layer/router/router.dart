@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:prision_card_game/presentation_layer/screens.dart/screen_wrapper.dart';
-import 'package:prision_card_game/presentation_layer/screens.dart/test_screend.dart';
+import 'package:prision_card_game/presentation_layer/screens.dart/test_screen.dart';
 final GoRouter router = GoRouter(
   initialLocation: '/test',
   routes: [
@@ -13,7 +13,7 @@ final GoRouter router = GoRouter(
           path: '/test',
           name: 'test',
           pageBuilder: (context, state) =>
-              MaterialPage(key: state.pageKey, child: TestScreen()),
+              MaterialPage(key: state.pageKey, child: const TestScreen()),
         ),
         // GoRoute(
         //   path: '/training',
