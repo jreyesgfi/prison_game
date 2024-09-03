@@ -27,8 +27,7 @@ class _HandWidgetContent extends ConsumerStatefulWidget {
   _HandWidgetContentState createState() => _HandWidgetContentState();
 }
 
-class _HandWidgetContentState extends ConsumerState<_HandWidgetContent>
-    with SingleTickerProviderStateMixin {
+class _HandWidgetContentState extends ConsumerState<_HandWidgetContent>{
   @override
   Widget build(BuildContext context) {
     
@@ -39,6 +38,7 @@ class _HandWidgetContentState extends ConsumerState<_HandWidgetContent>
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: cardWidgets, 
       ),
     );
